@@ -1,0 +1,14 @@
+PROGRESS 
+
+
+USER:
+//Register
+//login with hash password
+//Count Registered
+
+
+Technician:
+//Register
+//login with hash password
+
+Admin

@@ -1,0 +1,94 @@
+    body{    
+ 
+    background-size:100% ;
+    background-repeat: no-repeat;
+}
+
+.form-container{
+    width:350px;
+    background:white;
+    position: absolute;
+    padding:10px;
+    margin-top:10vh;
+    border-radius:3px;
+    border:1px solid rgb(218, 211, 211);
+    transition:all 1s;
+    visibility:hidden;
+}
+
+.form-container:hover{
+    position: absolute; 
+    padding:10px;
+    margin-top:10vh;
+    border-radius:3px;
+    box-shadow: -1px -1px 20px -5px  #0a0c0fda;
+    transition:all .4s;
+}
+
+#icon{
+    width:40%;
+}
+
+.modal-content{
+top:0;
+background: #0000003f;
+width:100%;
+height:97vh;
+position: absolute;
+visibility: hidden;
+opacity:0;
+transition:all .6s;
+}
+
+#login-modal:target{
+
+    opacity: 1;
+    visibility:visible;
+}   
+
+#login-modal:target .modal-box{
+    opacity: 1;
+    visibility:visible;
+}  
+
+#signup-modal:target{
+
+    opacity: 1;
+    visibility:visible;
+}   
+
+#signup-modal:target .modal-box{
+    opacity: 1;
+    visibility:visible;
+}  
+
+.navigation{
+   
+    border:1px solid black;
+    width:80%;
+    margin-left:11%;
+    
+}
+
+.navigation a{
+    color:black;
+   
+}
+
+.navigation a:hover{
+    color:white;
+    background:gray;
+    transition:.5s;
+}
+
+.card{
+    box-shadow: -1px -1px 6px -2px black;
+}
+
+.event-container{
+padding:1px solid black;
+width:80%;
+border:1px solid black;
+background:white;
+margin-left:11%;
+}
